@@ -18,4 +18,9 @@ public class TranslatorView {
         System.out.println("翻訳結果:　" + translatedText);
     }
 
+    // エラーメッセージを表示
+    public void displayError(String errorMessage) {
+        System.out.println("エラーメッセージ: " + errorMessage);
+    }
+
 }
